@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 
 st.set_page_config(page_title="classifier model", page_icon="📊", layout="wide")
+st.markdown("<style>div.block-container{padding-top:1.3rem}</style>", unsafe_allow_html=True)
 st.header("Penguins Classification Predictor")
 st.write("""
 This app predicts the **Palmer Penguin** species.
