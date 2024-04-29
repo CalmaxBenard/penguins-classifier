@@ -81,3 +81,4 @@ with col1:
 with col2:
     st.subheader("Prediction Probability")
     st.write(prediction_proba)
+    st.write("0 = Adelie | 1 = Chinstrap | 2 = Gentoo")
