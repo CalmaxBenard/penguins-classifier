@@ -57,11 +57,11 @@ df = df[:1]  # selects only the first row (user input data)
 
 # Display user input features
 st.subheader("User Input Features")
-
 if uploaded_file is not None:
     st.write(df)
 else:
     st.write("Awaiting CSV file to be uploaded. Currently using input parameters")
+    st.write("Bill is Culmen in the Dataset")
     st.write(df)
 
 # Read in saved classification model
